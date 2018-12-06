@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+  <meta charset="UTF-8">
+  <title lang="en">title</title>
+   
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+   
+   <h1>hoge</h1>
+   <p>hoghoge</p>
+   
+   <input type="button" value="ボタン" onclick="test();">
+   
+   
+<!-- Start of Alli Code -->
+<script src="https://sdk.alli.ai/latest/alli.js"></script>
+<script>
+  if (window.Alli) {
+    Alli.initialize({
+      apiKey: "YUTS5V9Q3M8BIWV5RM0Y5T2YBMUW0I7O",
+      debug: true
+    });
+  }
+  
+  function test(){
+  window.Alli.event();
+  }
+    
+</script>
+<!-- End of Alli Code -->
+   
+ </body>
+</html>
+ 
